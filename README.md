@@ -159,3 +159,13 @@ geany MagicMirror/config/config.js
 newsfeed 의 title, url 추가   
 여러개를 쓰고싶으면 {} 로 구분   
 ```
+
+## 추가 설정 화면 전환
+```
+터미널에서 sudo raspi-config 입력
+Advanced options -> GL Driver -> GL (Full KMS) OpenGL desktop driver with full KMS 선택
+sudo reboot
+메뉴 -> 기본설정 -> Screen Configuration
+Configure -> Screens -> HDMI-1 -> 방향 -> right
+체크표시 클릭해 화면전환 후 OK 클릭
+```
