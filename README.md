@@ -13,7 +13,9 @@ cp config/config.js.sample config/config.js
 
 ## 실행 및 종료
 ```
+cd MagicMirror
 npm run start
+cd ..
 ctrl + q
 ```
 
