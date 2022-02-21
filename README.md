@@ -153,8 +153,7 @@ stop: crl + q
 ## 뉴스 설정
 ```
 https://www.google.co.kr/alerts (구글에서 구글알리미 검색)으로 접속   
-검색창에 원하는 검색어 입력 후 옵션 더보기
-부채모양 오른클릭 - 링크 복사   
+옵션 표시 -> 수신위치(RSS 피드) -> 알림 만들기 -> 부채모양 우클릭 -> 링크 복사
 geany MagicMirror/config/config.js   
 newsfeed 의 title, url 추가   
 여러개를 쓰고싶으면 {} 로 구분   
